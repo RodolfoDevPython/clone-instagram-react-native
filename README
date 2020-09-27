@@ -1,0 +1,23 @@
+INFO DE DEPEDENCIAS 
+
+**json-server***
+Para Simular uma Api 
+Obs: foi usado o arquivo server.json
+
+
+** REACT-NATIVE NAVIGATION **
+Para Rotas
+
+** REACT-NATIVE-GESTURE-HANDLE **
+Serve para Manipular Gestos
+
+Obs: No ANDROID precisamos seguir um passo a passo.. para que ele funcione segue o link https://docs.swmansion.com/react-native-gesture-handler/docs/.
+Obs: No IOS Só precisamos rodar o comando pod install dentro da pasta ios e ele iria instalar o gesture-handler
+
+
+******* INFORMAÇÕES IMPORTANTES ***********
+
+O React Native não consegue setar automaticamente o width e height de imagens externas
+
+
+useCallback -> Serve para que o react não recrie a função mas que ela seja memorizada...(o FlatList Pode Reclamar)
